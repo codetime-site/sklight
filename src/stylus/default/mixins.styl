@@ -1,0 +1,48 @@
+font-famil(name = font(prim),  weight = 300, 
+size = fs(prim)
+)
+    font-family:name
+    font-weight: weight
+    font-size: size
+
+grid(num1, gap = false)
+    display: grid
+    if num2 != null
+        grid-template-columns:repeat(num1, 1fr) 
+
+    if gap != false
+        gap:(gap)px
+
+flex(which = false, gap = false)
+    display: flex
+    if which != false
+        flex-direction: column
+    if gap != false
+        gap:(gap)px
+
+
+
+fsize(num = 1, weight = null)
+    font-size: (num)em
+    if weight != null
+        font-weight: weight
+
+objectf(width = 100%, height = null, fit = cover, pos = center)
+    width width 
+    
+    if height is not null
+        height: height
+    else 
+        height: @width
+    
+    object-fit: fit
+    object-position: pos
+
+test()
+    border 2px solid #000
+    
+
+
+
+
+

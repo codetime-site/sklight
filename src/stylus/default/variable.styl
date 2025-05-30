@@ -1,0 +1,62 @@
+colors = {
+    prim: white
+    second: #000000
+    yel:#ffb900
+    dark_yel:#ff9600
+    yel3:#ffe699
+    someWhite:#efecec7a
+    blck:#333333
+    
+}
+// шрифт определяет специальный код внизу 
+fonts = {
+    header:'Poppins'sans-serif sans-serif,
+    prim:'Montserrat',
+    second: "Font Awesome 6 Free"  sans-serif,
+}
+sizes = {
+    header: 6.5em,
+    prim: 3em,
+    second: 1em,
+    names:1.5em,
+    title: 1.125em
+}
+
+:root
+    for name, color in colors 
+        --c{name}:color
+    
+    for name, font in fonts 
+        --f{name}:font 
+   
+    for name, size in sizes 
+        --fs{name}:size 
+
+col(name)
+    var(--c+name)
+
+colr(name, back = null)
+   if back == null
+        color: var(--c+name)
+
+    if back != null
+        background-color: var(--c+name)
+
+font(name)
+    font-family: var(--f+name)
+
+fs(name)
+   font-size:var(--fs+name)
+
+laptop = 992px;
+notebook = 768px;
+albom = 576px;
+phone = 406px;
+
+/* montserrat-regular - latin */
+@font-face 
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src url('../font/montserrat-v29-latin-regular.woff2') format('woff2') /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */

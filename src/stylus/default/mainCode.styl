@@ -1,0 +1,127 @@
+
+h1 
+    color col(prim);
+    font(prim)
+    fs(header)
+    margin unset
+    text-transform: uppercase
+    font-weight: 600
+
+h2  
+    font(prim)
+    fs(prim)
+    font-weight: 900
+    text-align: center
+    margin:20px 0
+    position relative
+    padding-bottom: 8px
+
+    & > b 
+        color: col(yel)
+
+
+
+h3
+    font(prim)
+    fs(names)
+    color col(second)
+    font-weight: 600
+    margin: 16px 0
+
+
+.container 
+    // width: 80% 
+    // margin: 0 auto
+    padding: 0 54px
+
+.year
+    font-weight: 900
+    color col(yel)
+    margin: 10px 0 
+
+section
+    width 100%
+    padding 46px 0
+
+
+ul > li 
+    list-style-type: none
+
+input,
+textarea
+    width: 90%;
+    height: 46px
+    padding: 5px 10px
+    border: none
+    background-color: col(prim);
+    border-bottom: 2px col(second) solid;
+    margin-bottom:27px
+
+    &:visited  
+        border: none
+
+    &:active  
+        border: none
+
+    &:link  
+        border: none
+
+ textarea
+    height: 140px
+    margin-bottom: unset
+
+button,
+.button
+    font(prim);
+    font-size: .8em;
+    font-weight: 600
+    text-decoration: none; /* Убирает подчёркивание */
+    text-align: center;  
+    background-color: col(prim)
+    width max-content;
+    border-radius: 8px
+    border: none
+    display: inline-block;
+    padding: 17px 28px;
+    border-radius: 51px;
+    transition: opacity .8s
+    font-weight: 600;
+    text-transform: uppercase;
+
+button:hover 
+    opacity .8
+
+img
+    display: inline-block
+    max-width: 100%
+    max-width: 100%
+
+
+
+.subtitle
+    line-height: 1.8
+    padding: 5px
+
+a
+    text-decoration: none;
+    color: inherit;
+
+
+.title
+    padding-top: 26px
+
++below(albom)
+    h2
+        font-size: 1.5em
+        margin: 25px 0 
+
+    h4 
+        font-size: 1em
+        font-weight 600
+
+    button,
+    .button
+        font-size: .8em 
+
+    .container 
+        padding 0 26px

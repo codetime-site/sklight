@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap");
+/* 禁用iPhone中Safari的字号自动调整 */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+/* 去除iPhone中默认的input样式 */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input,textarea,button{ /*-webkit-appearance:none;*/ resize: none; outline: none;}
+/* 取消链接高亮  */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article, 
+aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0); }
+/* 设置HTML5元素为块 */
+article, aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section {
+display: block;
+}
+input[type=text]::-ms-clear,
+ input[type=tel]::-ms-clear,
+ input[type=number]::-ms-clear{
+      display: none;
+ }
+select::-ms-expand {
+        display: none;
+   }
+/* 图片自适应 */
+img {
+/*max-width: 100%;
+height: auto;*/
+width:auto\9; /* ie8 */
+-ms-interpolation-mode:bicubic;/*为了照顾ie图片缩放失真*/
+}
+
+/*初始化 */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article, 
+aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section{margin:0; padding:0;}
+body{ font-family:"Montserrat",Arial,sans-serif; color:#555555; font-weight:400; background:#fff; /*min-width:1500px;*/ }
+i{font-style:normal;}
+a{ font-size:14px; text-decoration:none; color:#555555; font-family:"Montserrat",Arial,sans-serif; transition: all 0.3s; }
+a:hover{color:#0a95c2; text-decoration:none;}
+ul,ol{list-style:none;}
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+img{border: none; vertical-align: middle;}
+
+
+/*清楚浮动*/
+.clearfix:after,.clearfix:before{ content:""; display:table;}
+.clearfix:after{ clear:both;}
+.clearfix{*zoom:1;}
+.elli { overflow: hidden; text-overflow:ellipsis; white-space: nowrap; }
+.overhid { overflow: hidden; }
+.fl{float: left;}
+.fr{float: right;}
+.nomr { margin-right:0px !important; }
+.hiden { display:none; }
+.fulldiv { width:100%; min-width:1200px; margin:0 auto; }
+.maindiv { width:1200px; margin:0 auto; }
+.bg_fa { background-color:#fafafa; }
+.bg_hei { background-color:#333; }
+hr{ height:1px;border:none;border-top:#eee 1px solid; padding:10px 0; }
+
+.pl20 { padding-left:20px; }
+.pr20 { padding-right:20px; }
+.blank10 { height:10px; line-height:10px; clear:both; visibility:hidden; }
+.blank20 { height:20px; line-height:20px; clear:both; visibility:hidden; }
+.blank30 { height:30px; line-height:30px; clear:both; visibility:hidden; }
+.blank40 { height:40px; line-height:40px; clear:both; visibility:hidden; }
+.blank50 { height:50px; line-height:50px; clear:both; visibility:hidden; }
+.blank60 { height:60px; line-height:60px; clear:both; visibility:hidden; }
+.blank70 { height:70px; line-height:70px; clear:both; visibility:hidden; }
+.blank80 { height:80px; line-height:80px; clear:both; visibility:hidden; }
+.blank90 { height:90px; line-height:90px; clear:both; visibility:hidden; }
+.blank100 { height:100px; line-height:100px; clear:both; visibility:hidden; }
+
+/*page*/
+.pager { display:block; width:100%; text-align:center; padding:0; overflow:hidden; }
+DIV.jogger { MARGIN: 2px; }
+DIV.jogger A { display:inline-block; PADDING: 5px 12px; MARGIN: 2px 1px; COLOR: #404040; BACKGROUND-COLOR: #f7f7f7; TEXT-DECORATION: none; border:#bfbfbf 1px solid; border-radius:2px; }
+DIV.jogger A:hover { PADDING: 5px 12px; MARGIN: 1px; COLOR: #fff; BACKGROUND-COLOR: #0a95c2; border:#0a95c2 1px solid; border-radius:2px;}
+DIV.jogger A:active { PADDING: 5px 12px; MARGIN: 1px; COLOR: #fff; BACKGROUND-COLOR: #0a95c2; border:#0a95c2 1px solid; border-radius:2px;}
+DIV.jogger SPAN.current { PADDING: 5px 12px; MARGIN: 1px; COLOR: #fff; BACKGROUND-COLOR: #0a95c2; border:#0a95c2 1px solid; border-radius:2px; }
+DIV.jogger SPAN.disabled {	DISPLAY: none; }
+
