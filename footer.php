@@ -62,7 +62,7 @@
     </div>
 </div>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<!-- <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> -->
 <script type="text/javascript" src="assets/js/jquery.popup.min.js"></script>
 <script type="text/javascript" src="assets/js/foot.js"></script>
 <script src="//code.jivo.ru/widget/6Fdo0F8y1x" async></script>

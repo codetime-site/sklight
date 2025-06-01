@@ -19,6 +19,8 @@
 
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/comm.js"></script>
+    <!-- <script src="src/node_modules/handlebars/dist/handlebars.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"></script>
 </head>
 <body>
     <div class="header fhid">

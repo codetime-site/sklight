@@ -1,0 +1,143 @@
+{
+    "items": [
+        {
+            "country": "Россия",
+            "addres": "Москва, ул. Шарикоподшипниковская 11с7",
+            "phone": "+7 (906) 723 14 37",
+            "mail": "sklight8888@gmail.com"
+        },
+        {
+            "country": "Аргентина",
+            "addres": "CHILE 1380, C.A.B.A",
+            "phone": "(+54 9)11 7138 8885",
+            "mail": "VENTA@SANYILIGHTS.COM"
+        },
+        {
+            "country": "Бразилия",
+            "addres": "AV IPIRANGA 919 SALA 12, SÃO PAULO, CENTRO",
+            "phone": "+55 11 911366666",
+            "mail": "329015415@QQ.COM"
+        },
+        {
+            "country": "Египет",
+            "addres": "7 GHERNATA ST ROXY HELIPOLIS, EGYPT",
+            "phone": "2002080512098",
+            "mail": "JALALLIN@SPARKLIGHTEGYPT.COM"
+        },
+        {
+            "country": "Индонезия",
+            "addres": "JALAN LIO BARU 7 BATU CEPER TANGERANG",
+            "phone": "",
+            "mail": "SPARKLIGHTIN01@GMAIL.COM"
+        },
+        {
+            "country": "Китай",
+            "addres": "BUILDING 29, JIAYICHUANGXIN INDUSTRY ZONE, CHUANGXIN ROAD, QINGCHENG DISTRICT, QINGYUAN CITY, GUANGDONG PROVINCE",
+            "phone": "+55 11 911366666",
+            "mail": "INFO@SPARKLASER.COM"
+        },
+        {
+            "country": "Корея",
+            "addres": "인천광역시 미추홀구송림로307번길103호",
+            "phone": "010-2306-0401",
+            "mail": "13728735666@163.COM"
+        },
+        {
+            "country": "Мексика",
+            "addres": "AV. FRAY SERVANDO 120 INT.502 CENTRO CUAUHTEMOC 06000 CIUDAD DE MEXICO",
+            "phone": "",
+            "mail": "ABLITE2022@GMAIL.COM"
+        },
+        {
+            "country": "Перу",
+            "addres": "JR. PILCOMAYO 250, BREÑA, LIMA",
+            "phone": "954750545",
+            "mail": ""
+        },
+        {
+            "country": "США",
+            "addres": "2446 MERCES AVE, SOUTH EL MONTE, CA",
+            "phone": "+1(626) 601 - 1887",
+            "mail": "SANYILIGHTSUSA@GMAIL.COM"
+        },
+        {
+            "country": "Турция",
+            "addres": "TOPÇULAR MAH. DEMİRKAPI CAD. NO:2 İÇ KAPI NO:2 EYÜPSULTAN / İSTANBUL",
+            "phone": "905318139569",
+            "mail": "SANYILIGHTSTR@GMAIL.COM"
+        },
+        {
+            "country": "Чили",
+            "addres": "AV. EL RETIRO 1227, RENCA, REGIÓN METROPOLITANA",
+            "phone": "+56 9 3416 5935",
+            "mail": "SANYILIGHTSCL@GMAIL.COM"
+        }
+    ],
+    
+    "newsItem": [
+        {   
+            "link":"/news-detail/92.html",
+            "placeImg":"../assets/uploadfiles/image/20250327/20250327163699599959.jpg",
+            "newsHeader2":"Завод SK представляет новинку: светодиодный прожектор SPL-LED-1915Z",
+            "newsRec":"",
+            "newsDate":"2025-03-27"
+        },
+        {
+            "link":"/news-detail/88.html",
+            "placeImg":"../assets/uploadfiles/image/20250318/20250318161752805280.jpg",
+            "newsHeader2":"БОЛЬШИЕ ПОСТАВКИ СВЕТОВОГО ОБОРУДОВАНИЯ!",
+            "newsRec":"",
+            "newsDate":"2025-03-18"
+        },
+        {
+            "link":"/news-detail/89.html",
+            "placeImg":"../assets/uploadfiles/image/20250317/20250317162676767676.jpg",
+            "newsHeader2":"Новости из Китая: Завод SK расширяет границы инноваций в светотехнике",
+            "newsRec":"",
+            "newsDate":"2025-03-17"
+        },
+        {
+            "link":"/news-detail/87.html",
+            "placeImg":"../assets/uploadfiles/image/20250314/20250314193555945594.jpg",
+            "newsHeader2":"🔥 ГРАНДИОЗНОЕ ПОПОЛНЕНИЕ В РАЗДЕЛЕ ЛАЗЕРОВ!",
+            "newsRec":"",
+            "newsDate":"2025-03-14"
+        },
+        {
+            "link":"/news-detail/72.html",
+            "placeImg":"../assets/uploadfiles/image/20250314/20250314155781188118.jpg",
+            "newsHeader2":"SK расширяет глобальную сеть представительств",
+            "newsRec":"",
+            "newsDate":"2025-03-14"
+        },
+        {
+            "link":"/news-detail/71.html",
+            "placeImg":"../assets/uploadfiles/image/20250313/20250313200279827982.jpg",
+            "newsHeader2":"Завод SK расширяет присутствие на международном рынке",
+            "newsRec":"",
+            "newsDate":"2025-03-13"
+        },
+        {
+            "link":"/news-detail/70.html",
+            "placeImg":"../assets/uploadfiles/image/20250313/20250313154351315131.jpg",
+            "newsHeader2":"SK: Два десятилетия создания световых шоу",
+            "newsRec":"",
+            "newsDate":"2025-03-13"
+        },
+        {
+            "link":"/news-detail/69.html",
+            "placeImg":"../assets/uploadfiles/image/20250312/20250312195913921392.jpg",
+            "newsHeader2":"Укрепление международных связей",
+            "newsRec":"Компания SK, один из ведущих производителей светотехнического оборудования, продолжает расширять свое присутствие на международном рынке. За более чем 20 лет работы компания установила прочные партнерские отношения с клиентами в более чем 10 странах мира.",
+            "newsDate":"2025-03-12"
+        },
+        {
+            "link":"/news-detail/8.html",
+            "placeImg":"../assets/uploadfiles/image/20250305/20250305192254865486.png",
+            "newsHeader2":"Компания SK представила новинки на выставке GETshow 2025",
+            "newsRec":"Компания SK приняла участие в международной выставке GETshow 2025, которая прошла в Гуанчжоу, Китай. Это одно из крупнейших мероприятий индустрии профессионального освещения и сценического оборудования, собирающее ведущих игроков рынка...",
+            "newsDate":"2025-02-27"
+        }
+        
+    ]
+}
