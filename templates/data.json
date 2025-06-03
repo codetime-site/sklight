@@ -139,5 +139,84 @@
             "newsDate":"2025-02-27"
         }
         
+    ],
+    "header_list" : [
+        {
+           "headerLink":"https://rutube.ru/channel/46717788/",  
+           "headerImg":"assets/images/ico_share5.png"
+        },
+        {
+           "headerLink":"https://www.youtube.com/@SKlightRussia",  
+           "headerImg":"assets/images/ico_share2.png"
+        },
+        {
+          "headerLink":"https://vk.com/sparkrus",  
+          "headerImg":"assets/images/ico_share1.png"
+        },
+        {
+           "headerLink":"https://wa.me/message/FHPUUX3IVAMDM1",  
+           "headerImg":"assets/images/ico_share4.png"
+        },
+        {
+          "headerLink":"https://t.me/sklighting",  
+          "headerImg":"assets/images/ico_share3.png"
+        }
+    ],
+    "footerSunMenulist":[
+        {
+            "footerSubMenuLink":"/products-1.html",
+            "footerSubMenuLinkName":"Вращающиеся головы"
+        },
+        {
+            "footerSubMenuLink":"/products-2.html",
+            "footerSubMenuLinkName":"Светодиодные прожекторы"
+        },
+        {
+            "footerSubMenuLink":"/products-3.html",
+            "footerSubMenuLinkName":"Театральный свет"
+        },
+        {
+            "footerSubMenuLink":"/products-4.html",
+            "footerSubMenuLinkName":"Лазеры"
+        },
+        {
+            "footerSubMenuLink":"/products-5.html",
+            "footerSubMenuLinkName":"Генераторы дыма и тумана"
+        },
+        {
+            "footerSubMenuLink":"/products-6.html",
+            "footerSubMenuLinkName":"Пульты и консоли" 
+        },
+        {
+            "footerSubMenuLink":"/products-7.html",
+            "footerSubMenuLinkName":"LED экраны"
+        },
+        {
+            "footerSubMenuLink":"/products-8.html",
+            "footerSubMenuLinkName":"Крюки"
+        }
+    ],
+    "footerMenulist":[
+        {
+            "footerMenuLink":"/about.php",
+            "footerMenuLinkName":"О нас"
+        },
+        {
+            "footerMenuLink":"/aboutus.php",
+            "footerMenuLinkName":"Портфолио"
+        },
+        {
+            "footerMenuLink":"/news.php",
+            "footerMenuLinkName":"Новости"
+        },
+        {
+            "footerMenuLink":"/danbao.php",
+            "footerMenuLinkName":"Гарантия"
+        },
+        {
+            "footerMenuLink":"/contact.php",
+            "footerMenuLinkName":"Контакты"
+        }
     ]
+
 }

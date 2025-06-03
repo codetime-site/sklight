@@ -1,5 +1,4 @@
 <?php require_once("../header.php");?>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"></script>
 <main>
 <div class="fulldiv overhid bg_fa"><div class="maindiv dqwz"><a href="/">Главная</a><i></i><a href="/aboutus.html">О нас</a></div></div>
 <div class="blank20"></div>
@@ -38,29 +37,10 @@
     </div>
     <div class="maintit">Контактная информация</div>
     
-    <div class="companys" id="output">
-        <!-- handle -->
-        <script id="tempAbout" type="text/x-handlebars-template">
-            <?php require("handlebars/about.hbs");?>
-        </script>
+    <div class="companys" id="aboutOutput">
+        <?php require("../templates/test.php");?>
     </div>
 </div>
 </main>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const source = document.getElementById('tempAbout').innerHTML;
-        const template = Handlebars.compile(source);
-
-        const data = <?php
-            $json = file_get_contents('handlebarsDate/about_date.json');
-            echo json_encode(json_decode($json, true)); ?>;
-        
-        const output = document.getElementById('output');
-
-        if (output) {output.innerHTML = template(data);} 
-        else {console.error("Элемент с id='output' не найден");}
-    });
-</script>
 
 <?php require_once("../footer.php");?>
